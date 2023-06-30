@@ -26,8 +26,8 @@ Parallax (ONLY CSS)
     * //= link application.bootstrap.css 
 * **Formatting In Guthub Readme?!?!**
 
-Things you may want to cover:
-* System dependencies
+
+* **System dependencies**
   * Gem -v<a href="https://blog.rubygems.org/2022/02/09/3.3.7-released.html"> **3.3.7**
   * Ruby -v<a href="https://www.ruby-lang.org/en/news/2022/04/12/ruby-3-1-2-released/">  **3.1.2**
   * Rails -v<a href="https://rubygems.org/gems/rails/versions/3.1.2">  **7.0.6**
