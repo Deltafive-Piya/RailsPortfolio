@@ -6,7 +6,7 @@ Ruby on Rails Deployed Porfolio Page.
 
 Parallax (ONLY CSS)
 
-<img src="/piyaUpdates/rordojo.png" alt="A snapshot of the current Project">
+<img src="/RailsPortfolio-small.png" alt="A snapshot of the current Project">
 <img src="/piyaUpdates/rordojo-inspect.png" alt="A snapshot including the inspect section">
 
 * Issues encountered so far:
