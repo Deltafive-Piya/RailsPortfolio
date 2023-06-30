@@ -23,8 +23,7 @@ Parallax (ONLY CSS)
 * use the chown command with your username to change the ownership. Use the following command:
     *  "chown -R <username> ."
 *  application.bootstrap.css asset was not declared to be precompiled in the production environment.
-    * //= link application.bootstrap.css 
-* **Formatting In Guthub Readme?!?!**
+    * //= link application.bootstrap.css
 
 
 * **System dependencies**
