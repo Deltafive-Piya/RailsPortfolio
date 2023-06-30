@@ -1,7 +1,12 @@
+* {
+	/* outline: 1px solid red; */
+}
+
 html {
 	height: 100vh;
 	overflow: hidden;
 }
+
 body {
 	width: 100vw;
 	height: 100vh;
@@ -12,6 +17,28 @@ body {
 	overflow-x: hidden;
 	overflow-y: scroll;
 }
+
+.navbar {
+	position: fixed;
+	display: flex;
+	align-items: baseline;
+	top: 0;
+	left: 0;
+	width: 100%;
+	background-color: #333;
+	color: blanchedalmond;
+	padding: 10px;
+	text-align: center;
+	z-index: 999;
+	justify-content: space-around;
+}
+.nav-middle {
+	display: flex;
+}
+.nav-middle p {
+	margin: 0 10px;
+}
+
 .section1,
 .section2 {
 	width: 100%;
@@ -19,12 +46,13 @@ body {
 	position: relative;
 	transform-style: preserve-3d;
 }
+
 .section1::before {
 	content: "";
 	width: 100%;
 	height: 100%;
 	position: absolute;
-	background: url('base') top center;
+	background: url("base") top center;
 	background-size: cover;
 	transform: translateZ(-1px) scale(2.2);
 	filter: blur(2px);
@@ -35,28 +63,58 @@ body {
 	width: 100%;
 	height: 100%;
 	position: absolute;
-	background: url('outer-layer-blur.png') top center;
+	background: url("outer-layer-blur.png") top center;
 	background-size: cover;
 }
+
 .section1 .text {
 	top: 10%;
 	transform: translateZ(-0.2px) scale(1.6, 1.6) translate(-33%, 10%);
 }
+
 .section2 {
-	background-color: darkolivegreen;
+	display: flex;
+	width: 80%;
+	background-color: slategray;
+	padding-top: 130px;
+	padding-bottom: 100px;
+	padding-left: 40px;
+	padding-right: 40px;
+	margin: 0 auto;
 }
+
 .text {
 	top: 30%;
 	left: 50%;
 	position: absolute;
 	font-family: "Franklin Gothic Heavy";
-	font-size: 7vw;
-	color: white;
-	text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3),
+	font-size: 5vw;
+	color: rgb(0, 58, 14);
+	text-shadow: 2px 2px 5px rgba(82, 60, 1, 0.3),
 		5px 5px 70px rgba(255, 255, 255, 0.5);
 	transform: scale(1, 1.1) translate(-50%, 10%);
 }
 
 .white-greeting {
-	display:flex;
+	display: flex;
+}
+.seperated {
+	min-height: 1100px;
+	display: flex;
+	flex-wrap: wrap;
+	align-content: space-between;
+}
+
+.biotext {
+	width: 90%;
+	margin: 0 auto;
+
+	color: blanchedalmond;
+}
+.ttop {
+	font-size: 35px;
+}
+.tbottom {
+	font-size: 28px;
+	/* margin-top: 50px; */
 }
