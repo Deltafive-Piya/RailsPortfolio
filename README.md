@@ -1,6 +1,6 @@
 # README
 
-Ruby on Rails Deploying postgres Porfolio Page.
+Ruby on Rails Deploying (Postgresql, SACCS-Rails, and Bootstrap) Porfolio Page.
 
 * rails new RailsPortfolio --api --database=postgresql --skip-webpack-install --skip-action-mailbox --skip-action-mailer --skip-action-text --skip-spring --skip-turbolinks --skip-system-test
 
