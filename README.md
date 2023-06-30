@@ -4,7 +4,7 @@ Ruby on Rails Deployed Porfolio Page.
 
 * rails new RailsPortfolio --api --database=postgresql --skip-webpack-install --skip-action-mailbox --skip-action-mailer --skip-action-text --skip-spring --skip-turbolinks --skip-system-test
 
-Currently a Blank---
+Parralax (ONLY CSS)
 
 <img src="/piyaUpdates/rordojo.png" alt="A snapshot of the current Project">
 <img src="/piyaUpdates/rordojo-inspect.png" alt="A snapshot including the inspect section">
